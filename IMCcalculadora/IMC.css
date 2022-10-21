@@ -1,0 +1,23 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#form{
+    text-align: center;
+}
+button{
+    width: 200px;
+    margin: 20px 0px 20px 12px;
+
+}
+.campo{
+    margin: 0px 20px 0px 20px ;
+}
+#calculadora{
+    background-color: rgb(40, 38, 129);
+
+}
