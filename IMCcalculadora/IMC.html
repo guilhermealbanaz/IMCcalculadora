@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora IMC</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculadora IMC</title>
     <link rel="stylesheet" href="IMC.css">
-   
-</head>
-<body>
-<div id="calculadora">
-    <form id="form">
-        <label for="campo-nome">Nome:</label>
-        <br>
-        <input type="text" id="campo-nome" class="campo">
-        <br>
-        <label for="campo-peso">Peso:</label>
-        <br>
-        <input type="number" id="campo-peso" class="campo">
-        <br>
-        <label for="campo-altura">Altura:</label>
-        <br>
-        <input type="number" id="campo-altura" class="campo" >
-    </form>
-    <button onclick="calcula_imc();"> Calcular IMC </button>
+  </head>
+  <body>
+    <h2>Calculadora IMC</h2>
+    <form>
+      <label for="campo-nome">Nome:</label></br>
+      <input type="text" id="campo-nome" />
+      <br />
+      <label for="campo-peso">Peso:</label></br>
+      <input type="number" id="campo-peso" />
+      <br />
+      <label for="campo-altura">Altura:</label></br>
+      <input type="number" id="campo-altura" />
+    </form></br>
+    <button onclick="calculaIMC();">Calcular IMC</button>
     <div id="resultado-IMC"></div>
     <div id="resultado-categoria"></div>
+
     <script src="IMC.js"></script>
-</div>
-</body>
+  </body>
 </html>
